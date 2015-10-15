@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="content">
+	  <div id="input">
+		<span>Enter a number in the field below to run a series of tests. If all tests pass, secret is an additive function.</span>
+		<input type="number" onchange="checkAdditive(this.value);"/>
+	  </div>
+	  <div id="results">
+		<div id="pass">
+		  <div>
+			<span>Passed</span>
+			<br/>
+			<span class="count">N/A</span>
+		  </div>
+		</div>
+		<div id="fail">
+		  <div>
+			<span>Failed</span>
+			<br/>
+			<span class="count">N/A</span>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</body>
+</html>
